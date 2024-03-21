@@ -42,8 +42,8 @@ spring:
 server:
   port: 8080
 
-#okta:
-#  oauth2:
-#    issuer: https://spotify-clone.jp.auth0.com/
-#    client-id: ${auth0_client_id}
-#    client-secret: ${auth0_client_secret}
+okta:
+  oauth2:
+    issuer: https://DQ-0aNdCQASHi_gi6Lh0IVaj-i-ee5w_7wbX9i0ixf2V8giIAwe3DRSKWjl1tt7c/
+    client-id: ${auth0_client_id}
+    client-secret: ${auth0_client_secret}
